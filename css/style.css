@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.sum{
+    padding: 0px;
+
+}
+.system{
+    text-align: right;
+    padding-right: 15px
+}
+.system>b{
+    background-color: black;
+    color: #fff;
+}
+.Tenlogo>h1>a{
+    padding-left: 5px;
+    text-decoration-line: none;
+    color: gray;
+}
+.menu{
+    text-align: center;
+}
+.menu>ul>li{
+    display: inline;
+    padding-left: 15px;
+
+}
+.menu>ul>li>a{
+    text-decoration-line: none;
+    color: black;
+}
+.phude>ul>li{
+    float: right;
+    padding-right: 15px;
+    list-style: none;
+}
+.phude>ul>li>a{
+    text-decoration-line: none;
+    color: black;
+
+}
+.slideshow>img{
+    width: 100%;
+}
+.intro-sum{
+    text-align: center;
+    width: 90%;
+    padding: 10px 100px;
+}
+.intro{
+    padding: 10px 0px;
+}
+
+.item>a>img {
+    margin-top: 2px;
+    width: 305px;
+    height: 305px;
+}
+h2{
+    padding: 20px;
+    text-align: center;
+}
+.artist{
+    list-style: none;
+    padding: 10px 0px;
+}
+.artist>li{
+    display: inline;
+}
+.Suitnew{
+    text-align: center;
+}
+.Suitnew>a>img {
+    width: 252px;
+    border: solid 1px black;
+    margin: 2px 15px;
+}

@@ -1,13 +1,133 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<link rel="stylesheet" href="css.css">
+
 <body>
-<h1>nice one</h1>
+<div class="sum">
+    <div class="system">
+        <p>Hệ thống <b>60</b> cửa hàng</p>
+    </div>
+    <form class="header">
+        <div class="Tenlogo">
+            <h1><a href="">A D A M _ S T O R E</a></h1>
+        </div>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="">GIỚI THIỆU</a></li>
+                <li><a href="">SẢN PHẨM</a></li>
+                <li><a href="">GIÁ ƯU ĐẢI</a></li>
+                <li><a href="">LOOKBOOK</a></li>
+                <li><a href="">ADAMSTORE 360</a></li>
+                <li><a href="">GÓC ADAM</a></li>
+            </ul>
+            <div class="phude">
+                <ul>
+                    <li><a href="">Liên hệ</a></li>
+                    <li><a href="">Tìm kiếm</a></li>
+                    <li><a href="">Login</a></li>
+                    <li><a href="">Basket</a></li>
+                </ul>
+        </nav>
+
+</div>
+</form>
+
+<div class="slideshow">
+    <img id="run" onclick="chang()" src="./img/slideshow 1.webp" alt="">
+</div>
+<script>
+        var index = 0;
+        chang = function () {
+            var nexts = ["./img/slideshow 2.webp", "./img/slideshow 1.webp"]
+            document.getElementById('run').src = nexts[index];
+            index++;
+            if (index == 2) {
+                index = 0;
+            }
+        }
+        setInterval(chang, 5000);
+    </script>
+</div>
+
+<div class="intro-sum">
+    <div class="intro">
+        <div class="item">
+            <a href=""><img src="./img/gt1.png" alt=""></a>
+            <a href=""><img src="./img/gt2.png" alt=""></a>
+            <a href=""><img src="./img/gt3.png" alt=""></a>
+            <a href=""><img src="./img/gt4.png" alt=""></a>
+        </div>
+    </div>
+
+    <div>
+        <h2>NGƯỜI NỔI TIẾNG</h2>
+    </div>
+    <div class="artist">
+        <li><img src="./img/LYHAI.png" alt=""></li>
+        <li><img src="./img/KIENHUY.png" alt=""></li>
+        <li><img src="./img/XUANBAC.png" alt=""></li>
+        <li><img src="./img/QUANAP.png" alt=""></li>
+    </div>
+
+    <h2>BST SUIT MỚI</h2>
+    <div class="Suitnew">
+        <a href=""><img src="./img/NEW1.png" alt=""></a>
+        <a href=""><img src="./img/NEW2.png" alt=""></a>
+        <a href=""><img src="./img/NEW3.png" alt=""></a>
+        <a href=""><img src="./img/NEW4.png" alt=""></a>
+    </div>
+
+    <h2>ADAM STORE</h2>
+    <div>
+        <iframe width="1100" height="600" src="https://www.youtube.com/embed/7euAFwjg0-Q"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+    </div>
+</div>
+<footer>
+    <div class="sum-footer">
+        <div class="phone">
+            <h1>A D A M S T O R E</h1>
+            <p> 0938 888 835</p>
+            <p> info@adamgroup.vn</p>
+        </div>
+
+        <div class="intro-footer">
+            <p><b>GIỚI THIỆU</b></p>
+            <p>Công Ty TNHH THỜI TRANG ADAM</p>
+            <p>Hệ thống cửa hàng</p>
+            <p>Tuyển dụng</p>
+            <p>Sản phẩm</p>
+        </div>
+
+        <div class="policy">
+            <p><b>CHƯƠNG TRÌNH & CHÍNH SÁCH</b></p>
+            <p>Chương trình ưu đãi</p>
+            <p>Chính sách bảo hành</p>
+            <p>Chính sách đổi trả</p>
+            <p>Chính sách bảo mật</p>
+            <p>Quy định thanh toán</p>
+        </div>
+
+        <div class="news">
+            <p><b>TIN TỨC</b></p>
+            <p>Adam và Báo chí</p>
+            <p>Sao Việt và Khách hàng</p>
+            <p>Adam's Videos</p>
+        </div>
+    </div>
+
+</footer>
+</div>
 </body>
+
 </html>
